@@ -62,7 +62,7 @@ You may notice that the data is a nested JSON that will have to be parsed 2x, ra
 
 ### SUBSCRIBE
 
-Subscriptions allow you to request the server keep you updated anytime a value may change. In my experience so far, this seems to be the most useful. What this allows you to do is keep track of a local copy of the remote data, and fully separate yourself from the communication process. You can do 2 different forms of subscription, which are either an overall subscription, meaning you want to know any and all changes to data, or selective subscriptions, where you can specify which data points you want to stay updated on. Here is an example of each:
+Subscriptions allow you to request the server to keep you updated anytime a value may change. In my experience so far, this seems to be the most useful. What this allows you to do is keep track of a local copy of the remote data, and fully separate yourself from the communication process. You can do 2 different forms of subscription, which are either an overall subscription, meaning you want to know any and all changes to data, or selective subscriptions, where you can specify which data points you want to stay updated on. Here is an example of each:
 
 **Overall** (will get all updates to any data *including your own commands*, although your own commands do not necessarily need to be handled)
 ```JSON
