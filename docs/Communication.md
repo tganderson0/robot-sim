@@ -10,7 +10,7 @@ For each project, if there are any special sensors in use that do not have a pre
 
 ## Messages
 
-Robot Sim messages are written in JSON (at the time of writing, I am considering moving to Google Protobufs instead, but JSON until there is a limit from JSON).
+Robot Sim messages are written in JSON (at the time of writing, I am considering moving to Google Protobufs instead, but will use JSON until there is a limit from JSON).
 
 They all follow a common format, which is important for the websocket server to correctly handle it.
 
