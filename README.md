@@ -4,4 +4,4 @@ This is a project aimed at accelerating the starting time for various robot rese
 
 ## Communication Protocol
 
-This project uses a communication protocol over websockets to facilitate the connection between your planner/model and Unity/Robot. See [./docs/Communication.md]('./docs/Communication.md') for more info on it.
+This project uses a communication protocol over websockets to facilitate the connection between your planner/model and Unity/Robot. See [docs/Communication](./docs/Communication.md) for more info on it.
